@@ -1,0 +1,68 @@
+#catalog {
+  padding-top: 12px;
+  background: url("../../../assets/Body.png");
+  .catalog {
+    display: flex;
+    align-items: center;
+    .burger {
+      width: 250px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f3f3f3;
+      padding: 0 10px;
+      cursor: pointer;
+    }
+    .input-b {
+      width: 922px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border: 1px solid #ebebeb;
+      img {
+        padding: 0 12px;
+      }
+      input {
+        width: 897px;
+        background-color: transparent;
+      }
+    }
+    .search-b {
+      width: 42px;
+      height: 40px;
+      background: #ee8131;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        padding-top: 5px;
+      }
+    }
+  }
+  .products-block {
+    display: flex;
+
+    .category-block {
+      display: flex;
+      flex-direction: column;
+
+      margin-top: 20px;
+      .cat-block {
+        width: 248px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 5px;
+        &:hover {
+          background-color: #f3f3f3;
+        }
+        p {
+          color: #308ac4;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+#category {
+  .category {
+    .navs {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #308ac4;
+      cursor: pointer;
+      span {
+        &:nth-child(5) {
+          color: grey;
+          cursor: default;
+        }
+      }
+    }
+    h2 {
+      font-size: 26px;
+      line-height: 26px;
+      margin-top: 6px;
+      font-weight: 400;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 200px;
+      margin-top: 30px;
+      .product-block {
+        position: relative;
+        width: 246px;
+        height: 500px;
+        border: 1px solid #f2f2f2;
+        .img-block {
+          margin-left: 25px;
+          img {
+            width: 170px;
+            height: 170px;
+            margin-top: 15px;
+            &:nth-child(2) {
+              width: 10px;
+              height: 13px;
+              position: absolute;
+              right: 15px;
+              top: 40px;
+              margin-top: 0;
+              cursor: pointer;
+            }
+          }
+        }
+        .prod-txt {
+          width: 180px;
+          text-align: left;
+          margin-left: 20px;
+          margin-top: 30px;
+          p {
+            color: #308ac4;
+            margin-bottom: 20px;
+          }
+          h4 {
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+        .count {
+          margin-left: 20px;
+          width: 100px;
+          display: flex;
+          margin-top: 30px;
+          span {
+            width: 31px;
+            border: 1px solid #f2f2f2;
+            height: 31px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3f3f3;
+          }
+        }
+        button {
+          margin-left: 20px;
+          padding: 6px 27px;
+          margin-top: 5px;
+          background: #9dce1f;
+          border-radius: 4px;
+          color: #fff;
+        }
+        p {
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

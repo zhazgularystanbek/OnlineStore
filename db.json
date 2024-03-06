@@ -1,0 +1,96 @@
+{
+  "product": [
+    {
+      "id": "986d",
+      "image": "kolbasa.png",
+      "name": "jkjl",
+      "price": "55",
+      "category": "Колбаса, сосиски",
+      "art": "556665",
+      "inBacket": false,
+      "inFav": false,
+      "count": 5
+    },
+    {
+      "id": "d377",
+      "image": "ananas.png",
+      "name": "Ананас",
+      "price": "220",
+      "category": "Овощи, фрукты, орехи",
+      "art": "566666",
+      "inBacket": false,
+      "inFav": false,
+      "count": 0
+    },
+    {
+      "id": "c4f8",
+      "image": "napitkiAsu.png",
+      "name": "Асу",
+      "price": "50",
+      "category": "Напитки",
+      "art": "55555555",
+      "inBacket": false,
+      "inFav": false,
+      "count": 0
+    },
+    {
+      "id": "8d42",
+      "image": "myaso.png",
+      "name": "Говядина",
+      "price": "500",
+      "category": "Мясо, птица, рыба",
+      "art": "8888888",
+      "inBacket": true,
+      "inFav": true,
+      "count": 4
+    }
+  ],
+  "backet": [
+    {
+      "id": "8d42",
+      "image": "myaso.png",
+      "name": "Говядина",
+      "price": "500",
+      "category": "Мясо, птица, рыба",
+      "art": "8888888",
+      "inBacket": true,
+      "inFav": false,
+      "count": 4
+    }
+  ],
+  "fav": [
+    {
+      "id": "986d",
+      "image": "kolbasa.png",
+      "name": "jkjl",
+      "price": "55",
+      "category": "Колбаса, сосиски",
+      "art": "556665",
+      "inBacket": true,
+      "inFav": false,
+      "count": 0
+    },
+    {
+      "id": "8d42",
+      "image": "myaso.png",
+      "name": "Говядина",
+      "price": "500",
+      "category": "Мясо, птица, рыба",
+      "art": "8888888",
+      "inBacket": true,
+      "inFav": false,
+      "count": 4
+    },
+    {
+      "id": "8d42",
+      "image": "myaso.png",
+      "name": "Говядина",
+      "price": "500",
+      "category": "Мясо, птица, рыба",
+      "art": "8888888",
+      "inBacket": true,
+      "inFav": false,
+      "count": 4
+    }
+  ]
+}
