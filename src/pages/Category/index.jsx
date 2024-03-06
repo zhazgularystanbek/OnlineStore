@@ -6,7 +6,7 @@ import { useProductContext } from "../../MyContext";
 import { useNavigate, useParams } from "react-router-dom";
 
 const Category = () => {
-  const { product, readProduct, add, subtr, createBacketProduct, addToFav } =
+  const { product, add, subtr, createBacketProduct, addToFav } =
     useProductContext();
   const { category } = useParams();
   const nav = useNavigate();

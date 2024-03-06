@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useProductContext } from "../../../../MyContext";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const List = () => {
   const { readProduct, product } = useProductContext();
@@ -8,7 +8,6 @@ const List = () => {
     readProduct();
   }, []);
   const nav = useNavigate();
-  const { category } = useParams();
   function goToCat(el) {
     nav(`/catalog/${el.category}`);
   }

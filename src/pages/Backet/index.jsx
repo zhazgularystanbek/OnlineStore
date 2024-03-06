@@ -9,7 +9,7 @@ const Backet = () => {
   const { add, subtr, backetPr, getSum, getBacketPr, delProduct } =
     useProductContext();
   const nav = useNavigate();
-  const { name } = useParams();
+
   useEffect(() => {
     getBacketPr();
   }, [backetPr]);

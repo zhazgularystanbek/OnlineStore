@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useProductContext } from "../../MyContext";
 import { useNavigate, useParams } from "react-router-dom";
 import Header from "../../components/Header";
@@ -8,7 +8,6 @@ import Footer from "../../components/Footer";
 const Favourite = () => {
   const { add, subtr, createBacketProduct, addToFav, fav } =
     useProductContext();
-  const { category } = useParams();
   const nav = useNavigate();
 
   return (

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useProductContext } from "../../../MyContext";
 
 const Catalog = () => {
-  const { readProduct, product } = useProductContext();
+  const { readProduct } = useProductContext();
   useEffect(() => {
     readProduct();
   }, []);
